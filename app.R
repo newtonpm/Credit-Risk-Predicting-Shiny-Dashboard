@@ -16,7 +16,7 @@ ui <- dashboardPage(skin = "purple",
                     ),
                     dashboardSidebar(
                       sidebarMenu(
-                        menuItem("Input", tabName = "Input", icon = icon("dashboard")),
+                        menuItem("Input", tabName = "Input", icon = icon("dashboard")), # nolint
                         menuItem("Summary", tabName = "Summary", icon = icon("th")),
                         menuItem("Visualizations", icon = icon("th"),
                                  menuSubItem("BarPlot", tabName = "BarPlot"),
